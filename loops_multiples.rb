@@ -18,4 +18,9 @@
 # 20
 
 p "Enter a number:"
-
+number = gets.chomp.to_i
+start = 1
+while start<11
+  p number*start
+  start+=1
+end
